@@ -13,7 +13,7 @@ class Main {
             if(arr[i]>max){
     sm=max;
     max=arr[i];
-            }else if (arr[i] > sm && arr[i] < max) {
+            }else if (arr[i] > sm && arr[i] != max) {
                 sm= arr[i];
             }
         }
